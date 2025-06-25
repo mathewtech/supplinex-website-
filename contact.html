@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Supplinex Solutions Ltd</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">supplinex Solutions Ltd</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>We'd love to hear from you. Reach out by phone, email or using the form below.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p>📞 <strong>Phone:</strong>  0735 863 004</p>
+        <p>📧 <strong>Email:</strong> supplinexsolutionsltd@gmail.com</p>
+        <p>📍 <strong>Location:</strong> Nairobi, Kenya</p>
+      </div>
+
+      <div class="contact-form">
+       <h3>Send Us a Message</h3>
+       <form action="https://formspree.io/f/xkgbvppy" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+      
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+      
+        <!-- Optional hidden fields -->
+        <input type="hidden" name="_subject" value="New message from Supplinex Website">
+        <input type="hidden" name="_next" value="thankyou.html">
+        <input type="text" name="website" style="display:none"> <!-- honeypot spam protection -->
+      
+        <button type="submit">Send Message</button>
+      </form>
+      
+      
+
+        <a href="https://wa.me/254735863004" class="btn whatsapp-btn" target="_blank">
+          💬 Chat with us on WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="container map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.089376319777!2d36.81599695!3d-1.29206545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d50d8a870f%3A0x2d8f7b0b511a5d5a!2sNairobi!5e0!3m2!1sen!2ske!4v1718800000000" 
+        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </section>
+  <button onclick="history.back()" class="back-btn">← Back</button>
+  <div class="page-nav">
+    <a href="index.html" class="next-btn">Back to Home ↑</a>
+  </div>
+  
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Supplinex Solutions Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+  <a href="https://wa.me/254735863004" class="floating-whatsapp" target="_blank" title="Chat with us on WhatsApp">
+    💬
+  </a>
+  
+</body>
+</html>
